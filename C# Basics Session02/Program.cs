@@ -35,7 +35,9 @@ namespace C__Basics_Session02
             Console.WriteLine(pages);
             */
 
-            /*
+            // Q04. Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide byzero", and then prints "Done" in a finally block.
+
+
 
             int Book = 10;
             int Book1 = 0;
@@ -54,11 +56,13 @@ namespace C__Basics_Session02
 
 
             }
-            */
+         
 
-            int Pages = 300;
-            double Pages1 = Pages;
-            Console.WriteLine(Pages1);
+
+
+          
+
+
 
 
         }
