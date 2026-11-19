@@ -25,7 +25,7 @@ namespace C__Basics_Session02
              Console.WriteLine(object1.GetType());
             */
 
-            // Q03. Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+            /* Q03. Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
 
             compile - time error
 
@@ -33,6 +33,28 @@ namespace C__Basics_Session02
             int pages = Convert.ToInt32("464");
 
             Console.WriteLine(pages);
+            */
+
+            
+
+            int Book = 10;
+            int Book1 = 0;
+
+            try
+            {
+                int Average = Book / Book1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("you cannot Divide By zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+
+
+            }
+
 
         }
 
