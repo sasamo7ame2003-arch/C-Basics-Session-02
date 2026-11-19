@@ -91,9 +91,22 @@ namespace C__Basics_Session02
             // Q06. Declare a double price = 49.99; then convert it into an int using a cast.
 
 
-            double Price = 49.99;
-            int Price1 = (int)Price;
-            Console.WriteLine(Price1);
+            //double Price = 49.99;
+            //int Price1 = (int)Price;
+            //Console.WriteLine(Price1);
+
+
+            #endregion
+
+            #region question7
+
+            //Q07. Given string pagesText = "464";, convert it into an int using the Convert class.
+
+            string PagesText = "464";
+
+            int PageCount = Convert.ToInt32(PagesText);
+
+            Console.WriteLine(PageCount);
 
 
             #endregion
