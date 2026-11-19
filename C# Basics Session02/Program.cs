@@ -1,4 +1,6 @@
-﻿using System.Numerics;
+﻿using System.Drawing;
+using System.Numerics;
+using System.Runtime.Intrinsics.X86;
 using System.Timers;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -73,13 +75,54 @@ namespace C__Basics_Session02
             Console.WriteLine(Price1);
             */
 
-            // Q07. Given string pagesText = "464";, convert it into an int using the Convert class.
+            /* Q07. Given string pagesText = "464";, convert it into an int using the Convert class.
 
             string PagesText = "464";
 
             int PageCount = Convert.ToInt32(PagesText);
 
             Console.WriteLine(PageCount);
+            */
+            //Q08. Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";,
+            //use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+
+
+            //string YearText = "2023";
+            //int Yaer  = int .Parse(YearText);
+
+            //Console.WriteLine(YearText);
+
+
+            // string BadText = "abc";
+
+            /*   if (int.TryParse( BadText, out int Bad))
+               { 
+                    Console.WriteLine(Bad);
+               }
+               else
+               {
+                     Console.WriteLine("Invalid number");
+
+               }
+            */
+            //Q09. Given int pages = 464;, convert it into a string using ToString() and print its type using GetType()
+            // to prove it's now a string.
+
+            /* int Pages = 464;
+             string Pages2 = Pages.ToString();
+             Console.WriteLine(Pages2);
+             Console.WriteLine(Pages2.GetType());
+            */
+
+            // Q10. Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
+            // variable, and print both
+            /*int Copies = 100;
+            object Co2 = Copies;
+            int Co3 = (int)Co2;
+            Console.WriteLine(Co3);
+            */
+
+
 
 
 
