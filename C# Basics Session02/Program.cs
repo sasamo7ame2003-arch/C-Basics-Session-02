@@ -35,7 +35,7 @@ namespace C__Basics_Session02
             Console.WriteLine(pages);
             */
 
-            
+            /*
 
             int Book = 10;
             int Book1 = 0;
@@ -54,6 +54,11 @@ namespace C__Basics_Session02
 
 
             }
+            */
+
+            int Pages = 300;
+            double Pages1 = Pages;
+            Console.WriteLine(Pages1);
 
 
         }
