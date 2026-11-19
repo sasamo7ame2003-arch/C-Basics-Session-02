@@ -53,21 +53,34 @@ namespace C__Basics_Session02
 
 
 
-            int Book = 10;
-            int Book1 = 0;
+            //int Book = 10;
+            //int Book1 = 0;
 
-            try
-            {
-                int Average = Book / Book1;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("you cannot Divide By zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try
+            //{
+            //    int Average = Book / Book1;
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("you cannot Divide By zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+
+            #endregion
+
+
+            #region question5
+
+            //Q05. Declare an int pages = 300; then store it in a double variable without using a cast.
+
+
+            int Pages = 300;
+            double Pages1 = Pages;
+            Console.WriteLine(Pages1);
+
 
             #endregion
 
