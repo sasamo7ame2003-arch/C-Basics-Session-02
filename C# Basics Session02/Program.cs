@@ -77,15 +77,29 @@ namespace C__Basics_Session02
             //Q05. Declare an int pages = 300; then store it in a double variable without using a cast.
 
 
-            int Pages = 300;
-            double Pages1 = Pages;
-            Console.WriteLine(Pages1);
+            //int Pages = 300;
+            //double Pages1 = Pages;
+            //Console.WriteLine(Pages1);
 
 
             #endregion
 
 
-            
+
+            #region question6
+
+            // Q06. Declare a double price = 49.99; then convert it into an int using a cast.
+
+
+            double Price = 49.99;
+            int Price1 = (int)Price;
+            Console.WriteLine(Price1);
+
+
+            #endregion
+
+
+
 
 
 
