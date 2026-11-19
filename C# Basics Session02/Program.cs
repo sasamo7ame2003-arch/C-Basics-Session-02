@@ -39,13 +39,37 @@ namespace C__Basics_Session02
             //compile - time error
 
 
-            int pages = Convert.ToInt32("464");
+            // int pages = Convert.ToInt32("464");
 
-            Console.WriteLine(pages);
+            // Console.WriteLine(pages);
 
             #endregion
 
 
+
+            #region question4
+            // Q04. Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide byzero", and then prints "Done" in a finally block.
+
+
+
+
+            int Book = 10;
+            int Book1 = 0;
+
+            try
+            {
+                int Average = Book / Book1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("you cannot Divide By zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+            #endregion
 
 
 
