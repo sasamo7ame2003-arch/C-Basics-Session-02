@@ -8,7 +8,7 @@ namespace C__Basics_Session02
     {
         //public string Title;
         //public int Pages;
-        public string Title;
+       /* public string Title;
         public int Pages;
 
 
@@ -16,6 +16,7 @@ namespace C__Basics_Session02
         {
             return $"Title: {Title}  Pages:{Pages}";
         }
+       */
 
     }
 }

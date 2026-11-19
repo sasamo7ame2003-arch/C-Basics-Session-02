@@ -1,4 +1,8 @@
-﻿namespace C__Basics_Session02
+﻿using System.Numerics;
+using System.Timers;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace C__Basics_Session02
 {
     internal class Program
     {
@@ -10,7 +14,7 @@
 
 
 
-            //Q02. Using the Book class above, print the result of calling ToString(), Equals() (compare book with
+            /*Q02. Using the Book class above, print the result of calling ToString(), Equals() (compare book with
              Book object1 = new Book() { Title = "c#", Pages = 250 };
              Book object2 = new Book() { Title = "c#", Pages = 250 };
 
@@ -19,6 +23,16 @@
              Console.WriteLine(object1 .Equals(object2));
              Console.WriteLine(object1.GetHashCode());
              Console.WriteLine(object1.GetType());
+            */
+
+            // Q03. Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+
+            compile - time error
+
+
+            int pages = Convert.ToInt32("464");
+
+            Console.WriteLine(pages);
 
         }
 
